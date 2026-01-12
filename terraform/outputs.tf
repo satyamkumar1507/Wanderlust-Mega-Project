@@ -1,6 +1,6 @@
 output "region" {
   description = "The AWS region where resources are created"
-  value       = local.region
+  value       = var.aws_region
 }
 
 output "public_ip" {
